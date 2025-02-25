@@ -18,17 +18,17 @@ The framework is based on creating AI agents, tasks for them to run, and tools f
 -Agents created: 
   Financial Researcher:
 
-    Collects raw data from public sources (e.g., Google Finance, SEC filings).
+  Collects raw data from public sources (e.g., Google Finance, SEC filings).
 
-    Uses Serper API for real-time web searches.
+  Uses Serper API for real-time web searches.
 
   Financial Manager:
 
-    Analyzes the information provided and write the message to the user
+  Analyzes the information provided and write the message to the user
 
   Video Resarcher:
 
-    Searches for videos related to the company
+  Searches for videos related to the company
 
 - Tasks Created: 
 

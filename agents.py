@@ -58,16 +58,6 @@ class CustomAgents:
             verbose=True,
             llm=self.Ollama,
         )
-    def relevant_information_search_agent(self):
-        return Agent(
-            role="Relevant Information Search Agent",
-            backstory=dedent(f"""I am able to search for relevant information about a company on the internet"""),
-            goal=dedent(f"""Search for relevant information about a company and return it to the financial manager"""),
-            # tools=[tool_1, tool_2],
-            allow_delegation=False,
-            verbose=True,
-            llm=self.Ollama,
-        )
 
 
 

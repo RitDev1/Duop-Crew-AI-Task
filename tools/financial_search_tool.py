@@ -2,7 +2,7 @@ import os
 import yfinance as yf
 import requests
 import json
-from crewai import tool
+from langchain.tools import tool
 
 SERPER_API_KEY = ""
 
